@@ -37,4 +37,5 @@ map_data = pd.DataFrame(
 st.map(map_data)
 
 
-st.write('setting check')
+titanic= pd.read_csv("./data/titanic.csv")
+st.write(titanic)
